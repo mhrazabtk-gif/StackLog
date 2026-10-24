@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://codezen-exs.pages.dev';
-const KEY = '16d9ee2660ec4372bdeef3994bb6440d';
+const DOMAIN = 'https://stacklog7.pages.dev';
+const KEY = '4a827c314644434ab8dc81aac77e210a';
 
 const ROOT = __dirname;
 const PUBLIC_DIR = path.join(ROOT, 'public');
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'codezen-exs.pages.dev' ||
+    url.hostname.toLowerCase() !== 'stacklog7.pages.dev' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
