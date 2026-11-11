@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://stacklog7.pages.dev';
+const DOMAIN = 'https://stacklog7.pageaura.xyz';
 const KEY = '4a827c314644434ab8dc81aac77e210a';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'stacklog7.pages.dev' ||
+    url.hostname.toLowerCase() !== 'stacklog7.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
