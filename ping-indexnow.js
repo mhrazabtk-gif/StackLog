@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'stacklog7.pages.dev';
+const HOST = 'stacklog7.pageaura.xyz';
 const KEY = '4a827c314644434ab8dc81aac77e210a';
-const KEY_LOCATION = `https://stacklog7.pages.dev/4a827c314644434ab8dc81aac77e210a.txt`;
+const KEY_LOCATION = `https://stacklog7.pageaura.xyz/4a827c314644434ab8dc81aac77e210a.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
